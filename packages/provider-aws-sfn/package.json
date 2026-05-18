@@ -1,0 +1,30 @@
+{
+  "name": "@typenode-ai/provider-aws-sfn",
+  "version": "0.0.0",
+  "description": "Typenode compiler: IR → AWS Step Functions ASL JSON + per-leaf Lambda artifacts.",
+  "license": "Apache-2.0",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/typenode-ai/typenode-sdk.git",
+    "directory": "packages/provider-aws-sfn"
+  },
+  "homepage": "https://typenode.ai",
+  "bugs": "https://github.com/typenode-ai/typenode-sdk/issues",
+  "type": "module",
+  "main": "./dist/index.js",
+  "types": "./dist/index.d.ts",
+  "files": [
+    "dist",
+    "README.md",
+    "LICENSE"
+  ],
+  "publishConfig": {
+    "access": "public"
+  },
+  "scripts": {
+    "build": "echo 'TODO: build'",
+    "typecheck": "echo 'TODO: typecheck'",
+    "test": "echo 'TODO: test'",
+    "lint": "echo 'TODO: lint'"
+  }
+}

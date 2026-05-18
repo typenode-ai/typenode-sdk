@@ -1,0 +1,33 @@
+{
+  "name": "@typenode-ai/eslint-plugin",
+  "version": "0.0.0",
+  "description": "ESLint plugin for Typenode workflows — enforces determinism inside step.do bodies.",
+  "license": "Apache-2.0",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/typenode-ai/typenode-sdk.git",
+    "directory": "packages/eslint-plugin"
+  },
+  "homepage": "https://typenode.ai",
+  "bugs": "https://github.com/typenode-ai/typenode-sdk/issues",
+  "type": "module",
+  "main": "./dist/index.js",
+  "types": "./dist/index.d.ts",
+  "files": [
+    "dist",
+    "README.md",
+    "LICENSE"
+  ],
+  "publishConfig": {
+    "access": "public"
+  },
+  "peerDependencies": {
+    "eslint": ">=8.0.0"
+  },
+  "scripts": {
+    "build": "echo 'TODO: build'",
+    "typecheck": "echo 'TODO: typecheck'",
+    "test": "echo 'TODO: test'",
+    "lint": "echo 'TODO: lint'"
+  }
+}

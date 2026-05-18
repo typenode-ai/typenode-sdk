@@ -1,0 +1,33 @@
+{
+  "name": "@typenode-ai/cli",
+  "version": "0.0.0",
+  "description": "Typenode CLI — synth, deploy, dev. Pulumi-style workflow lifecycle commands.",
+  "license": "Apache-2.0",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/typenode-ai/typenode-sdk.git",
+    "directory": "packages/cli"
+  },
+  "homepage": "https://typenode.ai",
+  "bugs": "https://github.com/typenode-ai/typenode-sdk/issues",
+  "type": "module",
+  "main": "./dist/index.js",
+  "types": "./dist/index.d.ts",
+  "bin": {
+    "typenode": "./dist/cli.js"
+  },
+  "files": [
+    "dist",
+    "README.md",
+    "LICENSE"
+  ],
+  "publishConfig": {
+    "access": "public"
+  },
+  "scripts": {
+    "build": "echo 'TODO: build'",
+    "typecheck": "echo 'TODO: typecheck'",
+    "test": "echo 'TODO: test'",
+    "lint": "echo 'TODO: lint'"
+  }
+}
